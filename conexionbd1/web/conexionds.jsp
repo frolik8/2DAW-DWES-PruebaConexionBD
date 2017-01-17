@@ -10,10 +10,11 @@
     <body>
         <%
         Connection conDB = null;
-        out.println("Intentando conectar con la base de datos mediante DataSource...");
+        String datasource = "java:jboss/datasources/MySQLDS2";
+        out.println("Intentando conectar con la base de datos mediante DataSource..."+datasource);
         try {
 	        InitialContext initCtx = new InitialContext();
-	        DataSource ds = (DataSource) initCtx.lookup("java:jboss/datasources/MySQLDS2");
+	        DataSource ds = (DataSource) initCtx.lookup(datasource);
 	        //DataSource ds = (DataSource) initCtx.lookup("java:app/env/MySqlDS");
 	        conDB = ds.getConnection();
 	        Statement s = conDB.createStatement();

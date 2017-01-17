@@ -7,7 +7,7 @@
 <title>Diferentes pruebas de conexión y obtención de datos de una base de datos</title>
 </head>
 <body>
-Ejemplos de acceso a BD mediante DriverManager
+<h1>Ejemplos de acceso a BD mediante DriverManager</h1>
 <br>
 <a href="conexion0.jsp">Probar la conexión</a>
 <br>
@@ -21,6 +21,7 @@ una BD</a>
 <br>
 <a href="conexion4.jsp">Acceso a los MetaDatos de un ResultSet</a>
 <br>
+<h1>Ejemplos de acceso a BD mediante DriverManager</h1>
 <a href="conexionds.jsp">Conexión a una base de datos mediante DataSource</a>
 </body>
 </html>

@@ -5,7 +5,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html">
-        <title>Ejemplo de conexión a BD con DataSource</title>
+        <title>Ejemplo de conexión a BD con DataSource Producción v1.0</title>
     </head>
     <body>
         <%

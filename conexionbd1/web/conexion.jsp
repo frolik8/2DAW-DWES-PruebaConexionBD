@@ -7,6 +7,7 @@
 <title>Diferentes pruebas de conexión y obtención de datos de una base de datos</title>
 </head>
 <body>
+<h1>Bienvenido</h1>
 <h2>Ejemplos de acceso a BD mediante DriverManager</h2>
 <br>
 <a href="conexion0.jsp">Probar la conexión</a>

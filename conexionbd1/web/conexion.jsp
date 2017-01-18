@@ -22,7 +22,7 @@ una BD</a>
 <br>
 <a href="conexion4.jsp">Acceso a los MetaDatos de un ResultSet</a>
 <br>
-<h2>Ejemplos de acceso a BD mediante DriverManager</h2>
+<h2>Ejemplos de acceso a BD mediante Datasource</h2>
 <a href="conexionds.jsp">Conexión a una base de datos mediante DataSource</a>
 </body>
 </html>
